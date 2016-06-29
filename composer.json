@@ -1,0 +1,14 @@
+{
+    "name": "larakit/sf-angular-ui-bootstrap",
+    "description": "[Larakit] [staticfiles] sf-angular-ui-bootstrap",
+    "version": "2.0.0",
+    "license": "MIT",
+    "require":{
+        "larakit/lk-staticfiles":"*"
+    },
+    "autoload": {
+        "files": [
+            "init.php"
+        ]
+    }
+}
