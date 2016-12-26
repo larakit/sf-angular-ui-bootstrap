@@ -1,6 +1,10 @@
 <?php
 \Larakit\StaticFiles\Manager::package('larakit/sf-angular-ui-bootstrap')
-    ->usePackage('larakit/sf-angular')
+    ->usePackage('larakit/sf-angular-touch')
+    ->usePackage('larakit/sf-angular-animate')
+    ->usePackage('larakit/sf-bootstrap')
     ->setSourceDir('public')
     ->ngModule('ui.bootstrap')
-    ->jsPackage('ui-bootstrap-tpls.min.js');
+    ->jsPackage('ui-bootstrap.js')
+    ->jsPackage('ui-bootstrap-tpls.js')
+    ->jsPackage('ui-bootstrap-csp.css');
