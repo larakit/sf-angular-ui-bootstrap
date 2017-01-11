@@ -7,4 +7,4 @@
     ->ngModule('ui.bootstrap')
     ->jsPackage('ui-bootstrap.js')
     ->jsPackage('ui-bootstrap-tpls.js')
-    ->jsPackage('ui-bootstrap-csp.css');
+    ->cssPackage('ui-bootstrap-csp.css');
