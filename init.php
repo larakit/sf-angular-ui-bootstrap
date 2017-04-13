@@ -4,7 +4,6 @@
     ->usePackage('larakit/sf-angular-animate')
     ->usePackage('larakit/sf-bootstrap')
     ->setSourceDir('public')
-    ->ngModule('ui.bootstrap')
     ->jsPackage('ui-bootstrap.js')
     ->jsPackage('ui-bootstrap-tpls.js')
     ->cssPackage('ui-bootstrap-csp.css');
