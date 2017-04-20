@@ -3,8 +3,10 @@
     "description": "[Larakit] [staticfiles] sf-angular-ui-bootstrap",
     "version": "2.0.0",
     "license": "MIT",
-    "require":{
-        "larakit/lk-staticfiles":"*"
+    "require": {
+        "larakit/sf-angular-touch": "*",
+        "larakit/sf-angular-animate": "*",
+        "larakit/lsf-bootstrap": "*"
     },
     "autoload": {
         "files": [
