@@ -6,7 +6,7 @@
     "require": {
         "larakit/sf-angular-touch": "*",
         "larakit/sf-angular-animate": "*",
-        "larakit/lsf-bootstrap": "*"
+        "larakit/sf-bootstrap": "*"
     },
     "autoload": {
         "files": [
