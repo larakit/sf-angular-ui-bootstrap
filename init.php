@@ -7,3 +7,5 @@
     ->jsPackage('ui-bootstrap.js')
     ->jsPackage('ui-bootstrap-tpls.js')
     ->cssPackage('ui-bootstrap-csp.css');
+
+\Larakit\LkNgModule::register('ui.bootstrap');
